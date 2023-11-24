@@ -1,4 +1,4 @@
-function skillMember() {
+function skillsMember() {
     return {
         restrict: 'E',
         templateUrl: 'modules/skills/views/member.html',
@@ -8,5 +8,5 @@ function skillMember() {
         scope: {
             member: '='
         }
-    }
+    };
 }
